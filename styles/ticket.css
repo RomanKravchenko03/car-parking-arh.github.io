@@ -150,6 +150,10 @@
     display: none;
 }
 
+.ticket__block-safety-outside {
+    display: none;
+}
+
 @media (max-width: 1025px) {
     .ticket__block {
         width: 1024px;
@@ -201,6 +205,7 @@
     .ticket__block-safety-outside {
         width: 576px;
         margin-bottom: 60px;
+        display: block;
     }
     .ticket__block-outside {
         display: flex;
