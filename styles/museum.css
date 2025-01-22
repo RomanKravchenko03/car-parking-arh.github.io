@@ -22,3 +22,50 @@
     height: 144px;
 }
 
+@media (max-width: 1025px) {
+    .museum__block-info {
+        width: 1024px;
+        height: 400px;
+        padding: 30px 47px 70px 47px
+    }
+    .museum__block-title {
+        width: 450px;
+        height: 120px;
+        margin: 0;
+    }
+    .museum__block-subtitle {
+        width: 450px;
+        height: 230px;
+        margin: 0;
+    }
+    .h1, .h2 {
+        margin: 0;
+    }
+    .museum__block {
+        width: 1024px;
+    }
+}
+
+@media (max-width: 321px) {
+    .museum__block {
+        width: 320px;
+        height: 543px;
+    }
+    .museum__block-info {
+        width: 320px;
+        height: 543px;
+        padding: 0px 18px 78px 18px;
+        display: block;
+    }
+    .museum__block-subtitle {
+        width: 284px;
+        height: 391px;
+    }
+    .museum__block-title {
+        width: 284px;
+        height: 44px;
+        margin-bottom: 30px;
+    }
+}
+
+

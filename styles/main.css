@@ -14,7 +14,11 @@
 @import url(./location.css);
 @import url(./footer.css);
 
-
+body, html { 
+    margin: 0; 
+    padding: 0; 
+    max-width: 100%;
+}
 
 * {
     font-family: Unbounded;
@@ -22,5 +26,16 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 1025px)  {
+    body, html {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 321px) {
+    body, html {
+        overflow-x: hidden;
+    }
+}
 
 

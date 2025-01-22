@@ -26,6 +26,7 @@
     background-color: var(--primary-button-hover-background-color);
     color: var(--primary-button-hover-text-color);
 }
+
 .button__primary:active {
     font-size: 18px;
 }
@@ -75,7 +76,7 @@
     font-size: 24px;
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 321px) { 
     .button__primary {
         margin-bottom: 10px;
     }

@@ -10,7 +10,7 @@
     background: var(--program-box-another-background-color);
     color: var(--program-box-another-color);
 }
-/* var(--program-box-another-background-color); */
+
 .descriptor {
     font-weight: 500;
     font-size: 20px;
@@ -81,7 +81,7 @@
     margin-left: 10px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .container {
         padding: 0 47px;
     }
@@ -91,19 +91,132 @@
         font-weight: 400;
         line-height: 22.5px;
     }
+    .headline__two {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    .text {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+    }
+    .headline__three {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 33px;
+    }
+    .text__large {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .headline__one  {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+    .ticket__block-menu-item .text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.4px;
+    }
+    .text__small {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.4px;
+    }
+    .descriptor__two {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20.8;
+    }
+    .numeric {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .descriptor {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.8px;
+    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
     .container {
         padding: 0 18px;
     }
     .header__text {
         width: 282px;
         height: 126px;  
-        margin-top: 20px;
+        margin: 20px 0px 20px 0px;
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
     }
+    .headline__two {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    .text {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+    }
+    .descriptor {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15.6px;
+    }
+    .headline__three {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.2px;
+    }
+    .program__block_subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .program__contest-box-subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .headline__one  {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .delimiter__quaternary-elements {
+        margin-top: 20px;
+    }
+    .delimiter__quaternary-text .headline__one {
+        margin-top: 30px;
+    }
+    .text__small {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18.2px;
+    }
+    .ticket__block-content-price {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+   
+    .text__large {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .numeric {
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 26px;
+    }
+    
 }
 
