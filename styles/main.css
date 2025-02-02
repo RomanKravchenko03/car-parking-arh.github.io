@@ -1,10 +1,24 @@
 @import url(./normalize.css);
 @import url(./font.css);
 @import url(./colors.css);
-@import url(./header.css);
-@import url(./button.css);
 /* block */
 @import url(./menu.css);
+@import url(./header.css);
+@import url(./museum.css);
+@import url(./button.css);
+@import url(./cars.css);
+@import url(./common.css);
+@import url(./delimiter.css);
+@import url(./program.css);
+@import url(./ticket.css);
+@import url(./location.css);
+@import url(./footer.css);
+
+body, html { 
+    margin: 0; 
+    padding: 0; 
+    max-width: 100%;
+}
 
 * {
     font-family: Unbounded;
@@ -12,19 +26,16 @@
     box-sizing: border-box;
 }
 
-.container {
-    padding: 0 195px;
+@media (max-width: 1025px)  {
+    body, html {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 321px) {
+    body, html {
+        overflow-x: hidden;
+    }
 }
 
 
-.descriptor {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-}
-
-.text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-}

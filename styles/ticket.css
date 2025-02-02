@@ -1,0 +1,319 @@
+.ticket__block {
+    width: 1920px;
+    height: 1219px;
+    background-color: var(--ticket-background-color);
+    margin-top: 86px;
+    padding: 120px 0px 65px 190px;
+}
+
+.ticket__block-list {
+    width: 1548px;
+    height: 433px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.ticket__block-box-price {
+    padding: 30px;
+    background-color: var(--ticket-box-price-backgdound-color);
+    width: 360px;
+    height: 433px;
+    border-radius: 40px;
+}
+
+.ticket__block-content-in-box {
+    width: 300px;
+    height: 174px;
+}
+
+.ticket__block-content-title {
+    margin-bottom: 30px;
+}
+
+.ticket__block-content-line {
+    border: 1px solid #1E1E25;
+    margin-bottom: 30px;
+}
+
+.ticket__block-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 98px;
+}
+
+.ticket__block-slash {
+    margin-right: 8px;
+}
+
+.ticket__block-content-price {
+    margin: 0px 0px 20px 0px;
+}
+
+.ticket__block-content-button {
+    width: 300px;
+    height: 56px;
+    border-radius: 66px;
+    background: #D0E4D9;
+    border: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.ticket__block-content-button:hover {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ticket__block-content-button:active {
+    font-size: 20px;
+}
+
+.ticket__block-content-line-null {
+    border: solid #ffffff;
+}
+
+.ticket__block-safety {
+    width: 378px;
+    height: 285px;
+}
+
+.ticket__block-safety-shield {
+    margin-bottom: 20px;
+}
+
+.ticket__block-safety-title {
+    margin-bottom: 20px;
+}
+
+.ticket__block-information-price {
+    width: 1530px;
+    height: 501px;
+}
+
+
+.ticket__block-information-table_block > .ticket__block-information-table_text:not(:first-child) {
+    border-bottom: solid 1px var(--ticket-table-text-secondary-color);
+    height: 84px;
+}
+
+.ticket__block-information-table_block > .ticket__block-information-table_text:first-child {
+    height: 54px;
+    border-bottom: solid 2px var(--ticket-table-text-color);
+    color: var(--ticket-table-text-color);
+}
+
+.ticket__block-information-table_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket__block-information-table_line {
+    width:  326px;
+}
+
+.ticket__block-information-table_block {
+    margin-bottom: 50px;
+}
+
+.ticket__block-information-benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket__block-link {
+    text-decoration: none;
+    color: var(--ticket-table-text-limitation-color);
+}
+
+.ticket__block-information-limitation-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket__block-information-ico {
+    margin-right: 10px;
+}
+
+.ticket__block-outside {
+    display: none;
+}
+
+.ticket__block-information-limitation-outside {
+    display: none;
+}
+
+.ticket__block-line {
+    display: none;
+}
+
+.ticket__block-safety-outside {
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    .ticket__block {
+        width: 1024px;
+        padding: 60px 47px 0px 47px;
+        height: 1085px;
+    }
+    .ticket__block-box-price {
+        width: 290px;
+        height: 372px;
+        padding: 26px;
+    }
+    .ticket__block-content-title {
+        margin: 0;
+    }
+    .ticket__block-content-line {
+        width: 238px;
+        margin: 20px 0px 20px 0px;
+    }
+    .ticket__block-list > .ticket__block-safety {
+        display: none;
+    }
+    .ticket__block-list {
+        width: 930px;
+        height: 372px;
+    }
+    .ticket__block-content-line-null {
+        width: 150px;
+    }
+    .ticket__block-text {
+        width: 214px;
+        height: 132px;
+    }
+    .ticket__block-wrapper {
+        justify-content: left;
+    }
+    .ticket__block-wrapper {
+        margin-bottom: 28px;
+    }
+    .ticket__block-content-button {
+        width: 238px;
+        height: 57px;
+    }
+    .ticket__block-safety {
+
+    }
+    .ticket__block-list {
+        margin-bottom: 60px;
+    }
+    .ticket__block-safety-outside {
+        width: 576px;
+        margin-bottom: 60px;
+        display: block;
+    }
+    .ticket__block-outside {
+        display: flex;
+    }
+    .ticket__block-menu {
+        width: 576px;
+        height: 88px;
+    }
+    .ticket__block-safety-title {
+        margin: 0px 0px 14px 20px;
+    }
+    .ticket__block-information-price-title {
+        margin-top: 20px;
+    }
+    .ticket__block-information-table_line {
+        width: 233px;
+    }
+    .ticket__block-information-table_block {
+        width: 930px;
+    }
+    .ticket__block-information-table_block > .ticket__block-information-table_text:not(:first-child) {
+        height: 64px;
+    }
+    .ticket__block-information-table_block {
+        margin-bottom: 40px;
+    }
+    .ticket__block-information-benefits {
+        height: 50px;
+        width: 930px;
+    }
+}
+
+@media (max-width: 321px) {
+    .ticket__block {
+        margin-top: 0px;
+        width: 320px;
+        height: 1265px;
+        padding: 50px 0px 0px 18px;
+        overflow: hidden;
+    }
+    .ticket__block-box-price {
+        width: 264px;
+        height: 346px;
+        padding: 22px 25px 0px 25px;
+    }
+    .ticket__block-text {
+        width: 190px;
+        height: 108px;
+    }
+    .ticket__block-wrapper {
+        margin-bottom: 53px;
+    }
+    .ticket__block-content-button {
+        width: 214px;
+        height: 47px;
+    }
+    .ticket__block-content-line {
+        width: 214px;
+        margin: 16px 0px 16px 0px;
+    }
+    .ticket__block-list > .ticket__block-box-price:not(:first-child) {
+        display: none;
+    }
+    .ticket__block-list {
+        margin-bottom: 5px;
+    }
+    .ticket__block-menu {
+        width: 284px;
+        height: 144px;
+    }
+    .ticket__block-information-limitation-outside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ticket__block-information-ico {
+        width: 20px;
+        height: 20px;
+    }
+    .ticket__block-line {
+        display: block;
+        width: 284px;
+        height: 4px;
+        background-color: #ffffff;
+        margin-bottom: 60px;
+        border-radius: 33px;
+    }
+    .ticket__block-line-checkbox {
+        width: 90px;
+        height: 4px;
+        background-color: #6C79EC;
+        border-radius: 33px;
+    }
+    .ticket__block-information-benefits > .ticket__block-information-limitation-block {
+        display: none;
+    }
+    .ticket__block-information-benefits {
+        height: 50px;
+        width: 280px;
+        justify-content: center;
+    }
+    .ticket__button-benefits {
+        width: 283px;
+        height: 50px;
+    }
+    .ticket__block-information-price-title {
+        width: 282px;
+        height: 66px;
+        margin-bottom: 40px;
+    }
+}

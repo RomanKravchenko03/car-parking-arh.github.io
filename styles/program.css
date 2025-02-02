@@ -1,0 +1,194 @@
+.program__block {
+    width: 1920px;
+    height: 2291px;
+    background-color: var(--program-background-color);
+}
+
+.program__block-info {
+    padding: 190px 195px 240px 195px;
+}
+
+.program__block-title {
+    margin-bottom: 80px;
+}
+
+.program__block_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.program__block_different {
+    padding: 70px;
+    width: 490px;
+    height: 491px;
+    border-radius: 40px;
+    border: solid 2px #C1C1C1;
+}
+
+.program__block-frame {
+    margin-bottom: 30px;
+}
+
+.program__block_title {
+    margin-bottom: 30px;
+}
+
+.program__block_subtitle {
+    color: #1E1E25;
+}
+
+.program__block-contests {
+    display: flex;
+    justify-content: space-between;
+}
+
+.program__contest-box {
+    width: 750px;
+    height: 850px;
+    border-radius: 40px;
+    padding: 120px 100px 0px 100px;
+    position: relative;
+}
+
+.program__contest-box-title {
+    margin-bottom: 30px;
+}
+
+.program__contest-ico-gift {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.program__contest-ico-trophy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width: 1025px) {
+    .program__block {
+        width: 1024px;
+        height: 1852px;
+    }
+    .program__block-info {
+        padding: 50px 47px 100px 47px;
+    }
+    .program__block-title {
+        margin: 0px 0px 50px 0px
+    }
+    .program__block_box {
+        display: block;
+        margin-bottom: 100px;
+    }
+    .program__block_different {
+        padding: 50px;
+        width: 930px;
+        height: 235px;
+    }
+    .program__block_box > .program__block_different:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .program__block-frame, .program__block_title {
+        margin-bottom: 10px;
+    }
+    .program__contest-box {
+        width: 450px;
+        height: 657px;
+        border-radius: 40px;
+        padding: 50px 50px 0px 50px;
+    }
+    .program__contest-ico-gift {
+        width: 332.34px;
+        height: 279.67px;
+    }
+    .program__contest-ico-trophy {
+        width: 253.45px;
+        height: 216.47px;
+    }
+    .program__contest-box-subtitle {
+        width: 350px;
+        height: 299px;
+    }
+    .program__contest-box-subtitle {
+        width: 350px;
+        height: 126px;
+    }
+}
+
+@media (max-width: 321px) {
+    .program__block {
+        width: 320px;
+        height: 2481px;
+    }
+    .program__block-info {
+        padding: 0px 18px 0px 18px;
+    }
+    .program__block-title {
+        margin: 0px 0px 30px 0px;
+    }
+    .program__block_different {
+        height: 314px;
+        width: 284px;
+        padding: 20px;
+    }
+    .program__block-info {
+        width: 284px;
+        height: 979px;  
+    }
+    .program__block_box > .program__block_different:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .program__block_box {
+        margin-bottom: 67px;
+    }
+    .program__block-title { 
+        width: 257px;
+        height: 22px;
+    }
+    .program__block-contests {
+        display: block;
+    }
+    .program__block-mobile{
+        margin: 0px 0px 45px 0px;
+    }
+    .program__contest-box {
+        width: 284px;
+        height: 460px;
+        padding: 20px 20px 0px 20px;
+        overflow: hidden;
+    }
+    .program__contest-box-title {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .program__contest-box-subtitle {
+        margin: 0;
+    }
+    .program__mobile-box {
+        width: 244px;
+        height: 189px;
+    }
+    .program__contest-ico-gift {
+        width: 209px;
+        height: 162px;
+    }
+    .program__contest-mobile {
+        width: 284px;
+        height: 658px;
+    }
+    .program__mobile-box-itrn {
+        width: 244px;
+        height: 378px;
+    } 
+    .program__contest-ico-trophy {
+        left: 85px;
+    }
+    .program__block-contests:first-child {
+        margin-bottom: 30px;
+    }
+    .program__block-contests .program__contest-box:first-child {
+        margin-bottom: 30px;
+        }
+}

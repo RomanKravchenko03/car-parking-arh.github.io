@@ -1,0 +1,119 @@
+footer {
+    width: 1920px;
+    /* height: 859px; */
+    padding: 0px 195px 150px 195px;
+}
+
+.footer__block {
+    padding: 80px 100px 80px 100px;
+    margin-top: 90px;
+    width: 1533px;
+    height: 619px;
+    border-radius: 50px;
+    background-color: var(--footer-background-color);
+}
+
+.footer__block-title-text {
+    margin: 0px 0px 15px 0px;
+}
+
+.footer__block-title-link {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 15px 0px;
+}
+
+.footer__block-title-link-text {
+    margin: 0px 0px 0px 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__block-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 267px 0px;
+}
+
+.footer__block-subtitle-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__block-subtitle-text {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__block-convert {
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    .footer__block {
+        width: 930px;
+        height: 450px;
+        margin-top: 150px;
+        padding: 50px 50px 50px 50px;
+    }
+    .footer {
+        padding: 0px 47px 50px 47px;
+    }
+    .footer__block-wrapper {
+        display: block;
+        margin: 0px;
+    }
+    .footer__button {
+        margin: 40px 0px 81px 0px;
+    }
+}
+ 
+@media (max-width: 321px) {
+    .footer__block {
+        width: 320px;
+        height: 501px;
+        margin-top: 100px;
+        padding: 50px 23px 0px 18px;
+        border-radius: 50px 50px 0px 0px;
+    }
+    .footer {
+        padding: 0;
+    }
+    .descriptor {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.8px;
+    }
+    .headline__two {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.2px;
+    }   
+    .footer__block-ico-email, .footer__block-ico-telegram {
+        width: 22px;
+        height: 22px;
+    }
+    .footer__button {
+        margin: 40px 0px 80px 0px;
+    }
+    .footer__block-subtitle-label {
+        display: block;
+    }
+    .footer__block-subtitle-label > .header__logo {
+        margin-bottom: 30px;
+    }
+    .menu__text, .footer__block-subtitle-text .menu__text {
+        margin-bottom: 30px;
+    }
+    .footer__block-convert {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menu__text, .footer__block-subtitle-text {
+        display: none;
+    }
+    .active-mobile {
+        display: block;
+    }
+}

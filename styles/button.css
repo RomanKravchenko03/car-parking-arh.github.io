@@ -9,6 +9,11 @@
     cursor: pointer;
     color: var(--main-button-text-color);
     transition: color 0.27s ease-in-out, background-color 0.27s ease-in-out;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: 0.2em;
+    text-align: center;
 }
 
 .button__primary { 
@@ -21,6 +26,7 @@
     background-color: var(--primary-button-hover-background-color);
     color: var(--primary-button-hover-text-color);
 }
+
 .button__primary:active {
     font-size: 18px;
 }
@@ -32,4 +38,50 @@
 
 .button__secondary:active { 
     font-size: 18px;
+}
+
+.footer__button {
+    width: 282px;
+    height: 56px;
+}
+
+.footer__button:hover {
+    width: 282px;
+    background-color: var(--primary-button-background-color);
+    color: var(--secondary-button-hover-text-color);
+}
+
+.footer__button:active {
+    font-size: 18px;
+}
+
+.ticket__button-benefits {
+    width: 151px;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid #1E1E25;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+}
+
+.ticket__button-benefits:hover {
+    border-radius: 60px;
+    font-size: 16px;
+}
+
+.ticket__button-benefits:active {
+    font-size: 24px;
+}
+
+@media (max-width: 321px) { 
+    .button__primary {
+        margin-bottom: 10px;
+    }
+    .button__secondary {
+        width: 282px;
+        margin-bottom: 25px;
+    }
 }

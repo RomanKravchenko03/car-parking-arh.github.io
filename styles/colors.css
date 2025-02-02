@@ -17,6 +17,39 @@
     /* secondary-button-hover */
     --secondary-button-hover-background-color:#6C79EC;
     --secondary-button-hover-text-color: #FFFFFF;
+    /* section-one-museum */
+    --museum-background-color:#F6F5F5;
+    /* section-two-cars */
+    --cars-background-color: #D0E4D9;
+    --cars-question-background-color: #8EAAAB;
+    --cars-question-color: #ffffff;
+    /* section-three-program */
+    --program-background-color:#F6F9F1;
+    --program-box-background-color: #D2E3ED;
+    --program-box-secondary-background-color: #353535;
+    --program-box-another-color: #ffffff;
+    --program-box-another-background-color: #353535;
+    /* section-five-ticket */
+    --ticket-background-color: #D2E3ED;
+    --ticket-box-price-backgdound-color: #ffffff;
+    --ticket-table-text-color: #9090A6;
+    --ticket-table-text-secondary-color: #D1D1DE;
+    --ticket-table-text-limitation-color: #6C79EC;
+
+    /* section-six-location */
+    --location-background-color: #ffffff;
+
+    /* footer */
+    --footer-background-color: #D2E3ED;
+    
+    /* delimiter */
+   --delimiter-secondary-background-color: #F6F6F5;
+   --delimiter-primary-background-color: #D0E4D9;
+   --delimiter-tertiary-background-color: #F6F9F1;
+   --delimiter-quaternary-background-color: #ffffff;
+
+
+
 } 
 
 

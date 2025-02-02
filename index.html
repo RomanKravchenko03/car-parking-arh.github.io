@@ -7,30 +7,42 @@
     <title>Автовыходные в усадьбе Архангельское</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
+
+    <header id="header-link" class="header">
+      <div class="header__navigation">
         <div class="header__block header__block_top">
           <div class="header__logo">
-            <img src="./images/logo.png" alt="logo" class="img">
+            <a class="header__logo-href" href="#header-link">
+              <img src="./images/logo.png" alt="logo" class="img">
+            </a>
           </div>
-          <nav class="navbar">
-            <ul class="menu">
-              <li class="menu__item">
-                <a href="#" class="menu__link"> Участники </a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link"> Расписание </a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link"> Активности </a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link"> Билеты </a>
-              </li>
-            </ul>
-          </nav>
+            <nav class="navbar">
+              <ul class="menu">
+                <li class="menu__item_bonus">
+                  <!-- <img src="./images/menu-line.png" alt="menu-line"> -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </li>
+                <li class="menu__item">
+                  <a href="#!" class="menu__link"> Участники </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#!" class="menu__link"> Расписание </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#!" class="menu__link"> Активности </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#!" class="menu__link"> Билеты </a>
+                </li>
+
+              </ul>
+            </nav>
         </div>
-        
+      </div>
+
+        <div class="container">
           <div class="header__partners">
             <div class="header__partners_item">
               <img 
@@ -56,7 +68,6 @@
               alt="clear-dew" 
               class="header__image">
             </div>
-
         </div>
 
         <div class="header__data descriptor">
@@ -69,7 +80,7 @@
         </h1>
         
         <h2 class="header__text text">
-          Выходные в атмосфере автомобильной эстетики и культуры, самые редкие и красивые автомобили <br/>
+          Выходные в атмосфере автомобильной эстетики и культуры, самые редкие и красивые автомобили
           страны, в одной из самых пейзажных локаций Москвы
         </h2>
 
@@ -82,13 +93,599 @@
             купить билет
           </button>
       </div>
-      <div class="header__arrow"></div>
+      <a class="header__arrow" href="#main-link"></a>
         </div>
+        <!-- <div id=class="header__arrow"></div>
+        </div> -->
         
     </header>
-    <main class="main">
-      <section class="section">section</section>
+    <div class="delimiter"></div>
+    <main id="main-link" class="main">
+      <section class="museum__block">
+          <div class="museum__block-info">
+              <h1 class="museum__block-title headline__two">
+                Музей-заповедник 
+                <br>
+                Архангельское 
+              </h1>
+              <h2 class="museum__block-subtitle text">
+                Усадьба Архангельское это роскошный дворцовопарковый ансамбль, построенный в конце XVIII века. 
+                Он являлся резиденцией царской семьи Юсуповых и в наше время приобрел народное прозвище- “Подмосковный Версаль”. 
+                Заповедник состоит из множества аллей среди множества зданий и более 200 скульптур и фонтанов. 
+                Усадьба также имеет выход на набережную Москва-реки. Площадь заповедника составляет 800 га.
+              </h2>
+          </div>
+          
+      </section>
+      <section class="cars__block">
+        <div class="delimiter__secondary"></div>
+        <div class="cars__block_flex">  
+          <div class="cars__block-info">
+            
+            <h1 class="cars__block-title headline__two">
+              Автомобили
+            </h1>
+            <h2 class="cars__block-subtitle text">
+              Редчайшие автомобили, произведенные за последние 20 лет, включая спорт, супер и гипер кары. 
+              Широкий спектр янгтаймеров, от легендарной японской JDM классики до угловатых итальянских суперкаров 80х и 90х годов. 
+              Разнообразные классические шедевры начиная с довоенных европейских авто, заканчивая американскими масл-карами 60х и 70х годов выпуска.
+            </h2>
+            <button class="cars__block-button button button__primary">
+              принять участие
+            </button>
+
+            <div class="cars__block_image-one">
+              <img class="cars__block_image-ico-one" src="./images/lamborgini.png" alt="lamborgini">
+            </div>
+            <div class="cars__block_image-one">
+              <img class="cars__block_image-ico-one" src="./images/ferrari.png" alt="ferrari">
+            </div>
+            
+            <div class="cars__block-question">
+              <span class="descriptor">Еще фото</span>
+                <div class="cars__block-arrow">
+                  <img src="./images/question-arrow-right.png" alt="">
+                </div>
+            </div>
+              
+          </div>
+
+          <div class="cars__block-vertical">
+            
+            <div class="cars__block_image-two">            
+              <img class="cars__block_image-ico-two" src="./images/dodge.png" alt="">
+            </div>
+            <div class="cars__block_image-two">            
+              <img class="cars__block_image-ico-two" src="./images/ford.png" alt="">
+            </div>
+            <div class="cars__block_image-object-fit">            
+              <img class="cars__block_object-fit" src="./images/delorian.jpeg" alt="">
+            </div>
+            
+          </div>
+        </div>
+        <div class="cars__block_mobile">
+          <h1 class="cars__block_mobile-title headline__two">
+            Участники
+          </h1>
+          <h2 class="cars__block_mobile-subtitle">
+            Экспонатами фестиваля будут являться редкие и яркие автомобили, мотоциклы, внедорожная, водная и военная техника, новинки автопрома. 
+            Вы сможете познакомиться советской, японской, американской, итальянской, французской и британской классикой автомобилестроения, 
+            гражданскими спортивными автомобилями, тюнинг проектами, гоночными автомобилями, внедорожниками и вездеходами 
+            и автомобилями для путешествий и мотоциклами различных классов. Все это под открытым небом в одной из лучших локаций Москвы.
+          </h2>
+          <button type="button" class="button button__primary">
+            принять участие
+          </button>
+          <div class="cars__block_mobile-block">
+            
+            <div class="cars__block_mobile-one">
+              <div class="cars__block_mobile-image-one">
+                <img src="./images/cars-mobile-one.png" alt="cars-mobile-one">
+              </div>
+              <div class="cars__block_mobile-image-one">
+                <img src="./images/cars-mobile-two.png" alt="cars-mobile-two">
+              </div>
+              <div class="cars__block-question">
+                <span class="descriptor">Еще фото</span>
+                  <div class="cars__block-arrow">
+                    <img class="cars__block_mobile-arrow-ico" src="./images/question-arrow-right.png" alt="">
+                  </div>
+              </div>
+            </div>
+
+            <div class="cars__block_mobile-two">
+              <div class="cars__block_mobile-image-two">
+                <img src="./images/cars-mobile-three.png" alt="cars-mobile-three">
+              </div>
+              <div class="cars__block_mobile-image-one">
+                <img src="./images/cars-mobile-four.png" alt="cars-mobile-four">
+              </div>
+              <img class="cars__block_object-fit" src="./images/delorian.jpeg" alt="">
+            </div>
+          
+        </div>  
+        
+      </section>
+      <section class="program__block">
+        <span class="delimiter__tertiary"></span> 
+        <div class="program__block-info">
+          <h1 class="program__block-title headline__two">
+            Программа
+          </h1>
+          <div class="program__block_box">
+
+            <div class="program__block_different">
+              <img 
+              class="program__block-frame" 
+              src="./images/car-box.svg" 
+              alt="car"
+              >
+              
+              <div class="program__block_title headline__three">
+                Выставка эксклюзивных автомобилей
+              </div>
+
+              <div class="program__block_subtitle text">
+                Идейные соображения высшего порядка, а также граница обучения кадров не даёт нам иного выбора, 
+                кроме определения укрепления моральных ценностей. 
+              </div>
+            </div>
+            <div class="program__block_different">
+              <img 
+              class="program__block-frame" 
+              src="./images/table-box.svg" 
+              alt="table"
+              >
+
+              <div class="program__block_title headline__three">
+                Лекторий с участием легенд авто индустрии
+              </div>
+
+              <div class="program__block_subtitle text">
+                Противоположная точка зрения подразумевает, что действия представителей оппозиции, 
+                превозмогая сложившуюся непростую ситуацию.
+              </div>
+           </div>
+            <div class="program__block_different">
+              <img 
+              class="program__block-frame" 
+              src="./images/baby-box.svg" 
+              alt="baby"
+              >
+
+              <div class="program__block_title headline__three">
+                Детские активности и развлечения
+              </div>
+
+              <div class="program__block_subtitle text">
+                Современные технологии достигли такого уровня, 
+                что внедрение современных методик влечет за собой процесс внедрения и модернизации.
+              </div>
+            </div>
+
+          </div>
+          <h1 class="program__block-title headline__two program__block-mobile">
+            Конкурсы и призы
+          </h1>
+          <div class="program__block-contests">
+            
+            <div class="program__contest-box iteration">
+                <h1 class="program__contest-box-title headline__three">
+                  Призы от спонсоров и организаторов
+                </h1>
+                <h2 class="program__contest-box-subtitle text text__large program__mobile-box">
+                  Призы будут разыграны среди всех участников <br/> 
+                  автовыходных. 
+                  Планируется 5 разных номинаций. <br/>
+                  Посетители мероприятия тоже смогут принять участие 
+                  в голосовании за победителей номинаций.
+                </h2>
+                <img class="program__contest-ico-gift" src="./images/ico-gift.png" alt="gift">
+            </div>
+
+            <div class="program__contest-box another program__contest-mobile">
+              <h1 class="program__contest-box-title headline__three">
+                Конкурсы
+              </h1>
+              <h2 class="program__contest-box-subtitle text program__mobile-box-itrn">
+                Организаторами выставки совместно с ведущими 
+                
+                авто журналистами будет определен самый лучший 
+                
+                новый автомобиль на выставке, представленный 
+                
+                посетителям на фестиваля. Так же будут выявлены 
+                лучшие фотографы в соц сетях посетившие 
+                 фестиваль, в рамках конкурса на лучшую 
+                 фотографию. Посетители тоже получат возможность 
+                 поучаствовать в различных конкурсах и выиграть
+                ценные призы.
+              </h2>
+              <img class="program__contest-ico-trophy" src="./images/ico-trophy.png" alt="gift">
+            </div>
+
+          </div>
+        </div>
+        <div class="delimiter__quaternary">
+         <div class="delimiter__content">
+            <img 
+            class="delimiter__quaternary-elements" 
+            src="./images/ico-ticket.png" 
+            alt=""
+            >
+            <h1 class="delimiter__quaternary-text headline__one">
+              Билеты
+            </h1>
+
+            <img 
+            class="delimiter__quaternary-elements" 
+            src="./images/ico-ticket.png" 
+            alt=""
+            >
+            <h1 class="delimiter__quaternary-text headline__one">
+              Билеты
+            </h1>
+
+            <img 
+            class="delimiter__quaternary-elements" 
+            src="./images/ico-ticket.png" 
+            alt=""
+            >
+            <h1 class="delimiter__quaternary-text headline__one">
+              Билеты
+            </h1>
+
+            <img 
+            class="delimiter__quaternary-elements" 
+            src="./images/ico-ticket.png" 
+            alt=""
+            >
+            <h1 class="delimiter__quaternary-text headline__one">
+              Билеты
+            </h1>
+          </div>
+        </div>
+      </section>
+      <section class="ticket__block">
+        <div class="ticket__block-list">
+
+          <div class="ticket__block-box-price">
+            <div class="ticket__block-content-in-box">
+              <h1 class="ticket__block-content-title text">
+                Билет на 1 день выставки
+              </h1>
+              <hr class="ticket__block-content-line">
+              <div class="ticket__block-wrapper">
+                <span class="ticket__block-slash">\</span>
+                  <div class="ticket__block-text text__small">
+                    Позволяет получить доступ к статичной выставке автомобилей 
+                    и всем зонам мероприятия в течении одного дня.
+                  </div>
+              </div>
+              <h1 class="ticket__block-content-price">
+                800 ₽
+              </h1>
+              <button type="button" class="ticket__block-content-button text__button">
+                Купить билет
+              </button>
+            </div>
+          </div>
+
+          <div class="ticket__block-box-price">
+            <div class="ticket__block-content-in-box">
+              <h1 class="ticket__block-content-title text">
+                Билет на 2 дня выставки
+              </h1>
+              <hr class="ticket__block-content-line">
+              <div class="ticket__block-wrapper">
+                <span class="ticket__block-slash">\</span>
+                  <div class="ticket__block-text text__small">
+                    Позволяет получить доступ к статичной выставке автомобилей 
+                    и всем зонам мероприятия в течении одного дня.
+                  </div>
+              </div>
+              <h1 class="ticket__block-content-price">
+                1000 ₽
+              </h1>
+              <button type="button" class="ticket__block-content-button text__button">
+                Купить билет
+              </button>
+            </div>
+          </div>
+
+          <div class="ticket__block-box-price">
+            <div class="ticket__block-content-in-box">
+              <h1 class="ticket__block-content-title text">
+                VIP Билет
+              </h1>
+              <hr class="ticket__block-content-line">
+              <div class="ticket__block-wrapper">
+                <span class="ticket__block-slash">\</span>
+                  <div class="ticket__block-text text__small">
+                    Доступ на территорию любой день проведения мероприятия, 
+                    доступ в VIP зону и фуршету.
+                    <hr class="ticket__block-content-line-null">
+                  </div>
+                  
+              </div>
+              <h1 class="ticket__block-content-price">
+                6000 ₽
+              </h1>
+              <button type="button" class="ticket__block-content-button text__button">
+                Купить билет
+              </button>
+            </div>
+          </div>
+
+          <div class="ticket__block-safety">
+            <img 
+            class="ticket__block-safety-shield" 
+            src="./images/ico-shield-safety.png" 
+            alt="shield-safety"
+            >
+            <div class="ticket__block-safety-title headline__three">
+              Безопасность
+            </div>
+            <div class="ticket__block-safety-subtitle">
+              <div class="ticket__block-menu">
+                <div class="ticket__block-menu-item text">
+                  • Дежурная скорая помощь вблизи статичной и динамичной зоны
+                </div>
+                <div class="ticket__block-menu-item text">
+                  • Дежурный патруль ЧОП в каждой зоне
+                </div>
+                <div class="ticket__block-menu-item text">
+                  • Отряд полиции на каждом входе с металлодетекторами 
+                </div>
+                <div class="ticket__block-menu-item text">
+                  • Волонтеры
+                </div>
+              </div>
+                
+            </div>
+          </div>
+
+        </div>
+          <div class="ticket__block-safety-outside">
+            <div class="ticket__block-outside">
+              <img 
+              class="ticket__block-safety-shield" 
+              src="./images/ico-shield-safety.png" 
+              alt="shield-safety"
+              >
+              <div class="ticket__block-safety-title headline__three">
+                Безопасность
+              </div>
+            </div>  
+          <div class="ticket__block-safety-subtitle">
+            <div class="ticket__block-menu">
+              <div class="ticket__block-menu-item text__small">
+                • Дежурная скорая помощь вблизи статичной и динамичной зоны
+              </div>
+              <div class="ticket__block-menu-item text__small">
+                • Дежурный патруль ЧОП в каждой зоне
+              </div>
+              <div class="ticket__block-menu-item text__small">
+                • Отряд полиции на каждом входе с металлодетекторами 
+              </div>
+              <div class="ticket__block-menu-item text__small">
+                • Волонтеры
+              </div>
+            </div>
+              
+          </div>
+          </div>
+          <div class="ticket__block-information-limitation-outside">
+            <img class="ticket__block-information-ico" src="./images/info-outline.png" alt="info-outline">
+              <div class="ticket__block-information-limitation tags">
+                <a class="ticket__block-link" href="#">Вход для детей до 7 лет бесплатный</a>
+              </div>
+          </div>
+        <div class="ticket__block-information-price">
+          <h1 class="ticket__block-information-price-title headline__three headline__three-out">
+          Информация о стоимости билетов
+          </h1>
+          <div class="ticket__block-information-table_block">  
+            <div class="ticket__block-information-table_text">
+              <div class="ticket__block-information-table_line text">
+                Дата
+              </div>
+              <div class="ticket__block-information-table_line text">
+                Билет на 1 день
+              </div>
+              <div class="ticket__block-information-table_line text">
+                Билет на 2 дня
+              </div>
+              <div class="ticket__block-information-table_line text">
+                VIP Билет
+              </div>
+            </div>
+            <div class="ticket__block-information-table_text">
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                до 1 августа
+              </div>
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                800 руб.
+              </div>
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                1 000 руб.
+              </div>
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                6 000 руб.
+              </div>
+            </div>
+            <div class="ticket__block-information-table_text">
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                с 1 до 27 августа
+              </div>
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                1 000 руб.
+              </div>
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                1 500 руб.
+              </div>
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                7 500 руб.
+              </div>
+            </div>
+            <div class="ticket__block-information-table_text">
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                В кассах
+              </div>
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                1 200 руб.
+              </div>
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                1 800 руб.
+              </div>
+              <div class="ticket__block-information-table_line descriptor descriptor__two">
+                8 500 руб.
+              </div>
+            </div>
+          </div>
+
+
+          <div class="ticket__block-line">
+            <div class="ticket__block-line-checkbox"></div>
+          </div>
+
+          <div class="ticket__block-information-benefits">
+            <button type="button" class="ticket__button-benefits tags">
+              Льготы <img class="benefits" src="./images/ico-subtract.png" alt="subtract">
+            </button>
+            <div class="ticket__block-information-limitation-block"> 
+              <img class="ticket__block-information-ico" src="./images/info-outline.png" alt="info-outline">
+              <div class="ticket__block-information-limitation tags">
+                <a class="ticket__block-link" href="#">Вход для детей до 7 лет бесплатный</a>
+              </div>
+            </div> 
+          </div>
+        </div>
+        
+      </section>
+      <section class="location__block">
+        <div class="delimiter__five-point"></div>
+          <div class="location__block-information mesh">
+            
+            <div class="location__block-title">
+              <img class="location__block-ico" src="./images/ico-map.jpg" alt="map">
+              <h1 class="location__block-title-text headline__two">
+                Локация
+              </h1>
+            </div>
+
+            <div class="location__block-container">
+              <div class="location__block-left">
+                <img class="location__block-left-map" src="./images/location-map.png" alt="location-position">
+                <a 
+                class="location__block-left-link text__small" 
+                href="#!">открыть карту</a>
+              </div>
+              <div class="location__block-right">
+                <h1 class="location__block-right-title headline__three">
+                  Доступность
+                </h1>
+                <h2 class="location__block-right-subtitle text text__large">
+                  Локация находится всего в 4х км от МКАД в между Новорижским и Рублевским шоссе. 
+                  Рядом со въездами на территорию музея-заповедника расположены несколько парковок,
+                  в общей сложности вмещающих 1500 автомобилей. 
+                  Общественный транспорт (автобусы, маршрутки) регулярно ходит до Архангельского, 
+                  в том числе от метро. Средняя посещаемость музея-заповедника 
+                  в летний сезон вне мероприятий составляет 5000 человек за выходные.
+                </h2>
+                <div class="location__block-right-quanity">
+                  <div class="location__block-right-quanity-item">
+                    <h1 class="location__block-right-quanity-title numeric">
+                      10 000 >
+                    </h1>
+                    <h2 class="location__block-right-quanity-subtitle text">
+                      кв.м выставки
+                    </h2>
+                  </div>
+                  <div class="location__block-right-quanity-item">
+                    <h1 class="location__block-right-quanity-title numeric">
+                      200 >
+                    </h1>
+                    <h2 class="location__block-right-quanity-subtitle text">
+                      автомобилей
+                    </h2>
+                  </div>
+                  <div class="location__block-right-quanity-item">
+                    <h1 class="location__block-right-quanity-title numeric">
+                      бесконечно много >
+                    </h1>
+                    <h2 class="location__block-right-quanity-subtitle text">
+                      положительных эмоций
+                    </h2>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <img class="location__block-slide-map-tablet" src="./images/slide-map-tablet.png" alt="slide-map-tablet">
+            
+            <img class="location__block-slide-map" src="./images/slide-map.png" alt="slide-map">
+            
+            <img class="location__block-slide-map-mobile" src="./images/slide-map-mobile.png" alt="slide-map-mobile">
+            
+            <div class="ticket__block-line down">
+              <div class="ticket__block-line-checkbox"></div>
+            </div>
+            <img src="./images/slide-map-info-one.png" alt="map-info-one" class="location__block-map-info-one">
+            <img src="./images/slide-map-info-two.png" alt="map-info-two" class="location__block-map-info-two">
+          </div>
+
+      </section>
     </main>
-    <footer class="footer">footer</footer>
+    <footer class="footer">
+      <div class="footer__block">
+        <div class="footer__block-title">
+            <div class="footer__block-wrapper">
+              <div class="footer__block-content">
+                <h1 class="footer__block-title-text descriptor">
+                  По всем вопросам
+                </h1>
+                <div class="footer__block-title-link">
+                  <img class="footer__block-ico-email" src="./images/ico-email.png" alt="ico-email">
+                  <a class="footer__block-title-link-text headline__two" href="#!">
+                    info@lastochka-car.ru
+                  </a>
+                </div>
+                <div class="footer__block-title-link">
+                  <img class="footer__block-ico-telegram" src="./images/ico-telergam.png" alt="ico-telergam">
+                  <a class="footer__block-title-link-text headline__two" href="#!">
+                    @lastochkacar
+                  </a>
+                </div>
+              </div>  
+              <button type="button" class="footer__button button">
+                принять участие
+              </button>
+            </div>  
+        </div>
+        <div class="footer__block-subtitle-label">
+          <div class="header__logo">
+            <a class="header__logo-href" href="#header-link">
+              <img src="./images/logo.png" alt="logo" class="img">
+            </a>
+          </div>
+            <div class="menu__text">
+                2023
+              </div>
+              <a href="#!" class="footer__block-subtitle-text menu__text">
+                <u>Пользовательские соглашения</u>
+              </a>
+            <div class="footer__block-convert">
+              <div class="menu__text active-mobile">
+                2023
+              </div>
+              <a href="#!" class="footer__block-subtitle-text menu__text active-mobile">
+                <u>Пользовательские соглашения</u>
+              </a>
+          </div>
+        </div>  
+      </div>
+    </footer>
   </body>
 </html>
